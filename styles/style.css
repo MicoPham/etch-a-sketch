@@ -1,0 +1,15 @@
+.container {
+    width: 960px;
+    height: 960px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.container div {
+    background-color: white;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: thin;
+}
+
