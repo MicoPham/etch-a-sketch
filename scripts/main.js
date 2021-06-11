@@ -1,7 +1,5 @@
 const container = document.querySelector('.container');
 
-document.body.style.setProperty('--answer', answer);
-
 var answer = 16;
 grids(answer);
 
